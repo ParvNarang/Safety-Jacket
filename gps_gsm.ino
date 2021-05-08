@@ -1,3 +1,7 @@
+/* Owner-
+    Parv Narang
+*/
+
 #include <TinyGPS++.h>
 #include <SoftwareSerial.h>
 SoftwareSerial portOne(4,5);//RX  TX GPS
@@ -120,4 +124,4 @@ void SendMessage()
     //////////////////////////////////////////////////////////////////////////////////////
     delay(100);portTwo.println((char)26);delay(100);send_flag=1;
     Serial.println("    SEND OK  OUT   ");
-} 
+}
