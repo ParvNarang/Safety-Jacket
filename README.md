@@ -32,5 +32,3 @@ The taser also uses a boost converter which converts the potential difference fr
 
 - It receives information like latitude, longitude, altitude, UTC time, etc. from the satellites in the form of NMEA string. This string needs to be parsed to extract the information that we want to use.
 - The active sim in the GSM module acts as a messaging module sending messages to the phone numbers feeded in the program or in the sd card.
-
--> JACK-SAFE
